@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Renewable Energy Design Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+<nav aria-label="Primary navigation">
+
+<h1 class="visually-hidden"> Clean & Green Energy Portfolio </h1>
+
+<ul role="menubar">
+
+    <li role="none"><a href="#home" role="menuitem" class="active" onclick="showSection(event, 'home')">Home</a></li>
+
+
+<li role="none">
+
+<a href="#activity1" role="menuitem" aria-current="page" tabindex="0" class="active" onclick="showSection(event, 'activity1')">Activity 1</a>
+
+</li>
+
+<li role="none">
+
+<a href="#activity2" role="menuitem" tabindex="-1" onclick="showSection(event, 'activity2')">Activity 2</a>
+
+</li>
+
+<li role="none">
+
+<a href="#activity3" role="menuitem" tabindex="-1" onclick="showSection(event, 'activity3')">Activity 3</a>
+
+</li>
+
+</ul>
+
+</nav>
+
+
+
+<main>
+
+    <section id="home" class="content-section active-section" aria-labelledby="home-title">
+            <div class="activity-card">
+                <h2 id="home-title">FT-IV Renewable Energy Design Portfolio</h2>
+                <p>
+                    Welcome! This portfolio presents three renewable energy system designs with block diagrams, technical specifications, and visual data representations.
+                </p>
+                <p>
+                    It showcases practical applications of solar and biomass technologies in real-world scenarios. Please use the navigation on the left to explore each activity.
+                </p>
+            </div>
+        </section>
+
+<!-- Activity 1 -->
+
+<section id="activity1" class="content-section active-section" tabindex="0" aria-labelledby="activity1-title" role="region" aria-live="polite">
+
+<div class="activity-card solar">
+
+<h2 id="activity1-title">Activity 1: Rooftop Solar PV System (5 kW)</h2>
+
+<img src="images/1.png" alt="Block diagram illustrating a 5 kW rooftop solar PV system" />
+
+
+
+<h3>Overview</h3>
+
+<p>
+
+This 5 kW rooftop solar system can generate <strong>20–25 kWh/day</strong> under average sunlight conditions. It supplies energy to a 3–4 bedroom house, covering up to <strong>80% of daily needs</strong>. With net metering, surplus energy reduces electricity bills and carbon footprint.
+
+</p>
+
+
+
+<h3>Key Specifications</h3>
+
+<table>
+
+<tr><th>Component</th><th>Specification</th></tr>
+
+<tr><td>Solar Panels</td><td>5 kW, Monocrystalline, 18% efficiency</td></tr>
+
+<tr><td>Battery Storage</td><td>10 kWh Li-ion</td></tr>
+
+<tr><td>Inverter</td><td>Pure Sine Wave, 5 kW</td></tr>
+
+<tr><td>Daily Output</td><td>20–25 kWh</td></tr>
+
+<tr><td>Estimated Savings</td><td>₹3,000–₹4,000/month</td></tr>
+
+</table>
+
+
+
+<h3>Benefits</h3>
+
+<ul>
+
+<li>Reliable electricity even in cloudy conditions</li>
+
+<li>Reduces dependence on fossil fuels</li>
+
+<li>Monitoring for energy usage and production</li>
+
+<li>Eco-friendly and sustainable</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+
+<!-- Activity 2 -->
+
+<section id="activity2" class="content-section" tabindex="0" aria-labelledby="activity2-title" role="region" aria-live="polite">
+
+<div class="activity-card irrigation">
+
+<h2 id="activity2-title">Activity 2: Solar-Powered Irrigation Pump</h2>
+
+<img src="images/2.png" alt="Block diagram of solar-powered irrigation pumping system" />
+
+
+
+<h3>Overview</h3>
+
+<p>
+
+Pumps up to <strong>5,000 liters/hour</strong> for a 2-acre farm, reducing reliance on diesel pumps. With automated soil moisture sensors, water waste is reduced by up to <strong>30%</strong>, improving crop yield and saving approximately <strong>₹2,500/month</strong> on fuel.
+
+</p>
+
+
+
+<h3>Key Specifications</h3>
+
+<table>
+
+<tr><th>Component</th><th>Specification</th></tr>
+
+<tr><td>PV Array</td><td>3 kW, Polycrystalline</td></tr>
+
+<tr><td>Pump Type</td><td>Submersible, 5,000 L/h</td></tr>
+
+<tr><td>Controller</td><td>DC with MPPT</td></tr>
+
+<tr><td>Automation</td><td>Soil moisture sensors & timers</td></tr>
+
+<tr><td>Estimated Savings</td><td>₹2,500/month on fuel</td></tr>
+
+</table>
+
+
+
+<h3>Benefits</h3>
+
+<ul>
+
+<li>Reliable irrigation for remote farms</li>
+
+<li>Reduces greenhouse gas emissions</li>
+
+<li>Optimized water usage with sensors</li>
+
+<li>Supports climate-smart agriculture</li>
+
+</ul>
+
+</div>
+
+</section>
+
+
+
+<!-- Activity 3 -->
+
+<section id="activity3" class="content-section" tabindex="0" aria-labelledby="activity3-title" role="region" aria-live="polite">
+
+<div class="activity-card biogas">
+
+<h2 id="activity3-title">Activity 3: Biogas System for Dairy Farm (100 Cattle)</h2>
+
+<img src="images/3.png" alt="Block diagram of biomass-based biogas generation system" />
+
+
+
+<h3>Overview</h3>
+
+<p>
+
+Produces <strong>25–30 m³ of biogas/day</strong>, generating <strong>5–6 kWh of electricity</strong>. Digestate fertilizes 2–3 acres of crops annually. Farms can save <strong>₹10,000–₹15,000/year</strong> on energy and cooking fuel while reducing methane emissions.
+
+</p>
+
+
+
+<h3>Key Specifications</h3>
+
+<table>
+
+<tr><th>Component</th><th>Specification</th></tr>
+
+<tr><td>Digester</td><td>Anaerobic, 100 cattle capacity</td></tr>
+
+<tr><td>Biogas Output</td><td>25–30 m³/day</td></tr>
+
+<tr><td>Electricity Production</td><td>5–6 kWh/day</td></tr>
+
+<tr><td>Digestate Use</td><td>Bio-fertilizer for 2–3 acres</td></tr>
+
+<tr><td>Estimated Savings</td><td>₹10,000–₹15,000/year</td></tr>
+
+</table>
+
+
+
+<h3>Benefits</h3>
+
+<ul>
+
+<li>Renewable energy from farm waste</li>
+
+<li>Reduces greenhouse gas emissions</li>
+
+<li>Produces organic fertilizer</li>
+
+<li>Supports sustainable farming and energy independence</li>
+
+</ul>
+
+</div>
+
+</section>
+
+</main>
+
+
+
+<script>
+
+/**
+
+* Shows the selected section and updates navigation active states.
+
+* @param {Event} event - The click event.
+
+* @param {string} id - The id of the section to show.
+
+*/
+
+function showSection(event, id) {
+
+event.preventDefault();
+
+
+
+const sections = document.querySelectorAll('.content-section');
+
+const navLinks = document.querySelectorAll('nav a');
+
+
+
+// Hide all sections and remove active class from nav links
+
+sections.forEach(section => {
+
+section.classList.remove('active-section');
+
+section.setAttribute('aria-hidden', 'true');
+
+section.tabIndex = -1;
+
+});
+
+navLinks.forEach(link => {
+
+link.classList.remove('active');
+
+link.setAttribute('aria-current', 'false');
+
+link.tabIndex = -1;
+
+});
+
+
+
+// Show the selected section
+
+const activeSection = document.getElementById(id);
+
+if (activeSection) {
+
+activeSection.classList.add('active-section');
+
+activeSection.removeAttribute('aria-hidden');
+
+activeSection.tabIndex = 0;
+
+activeSection.focus();
+
+}
+
+
+
+// Set the clicked nav link as active
+
+event.currentTarget.classList.add('active');
+
+event.currentTarget.setAttribute('aria-current', 'page');
+
+event.currentTarget.tabIndex = 0;
+
+}
+
+</script>
+
+
+
+</body>
+
+</html>
+
