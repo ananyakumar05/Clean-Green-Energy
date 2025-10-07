@@ -52,4 +52,4 @@ The website is designed to be accessible, user-friendly, and informative for stu
 
 ---
 
-## **Project Structure**
+
